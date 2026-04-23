@@ -107,7 +107,7 @@
 			mainGroup = E67A1E152E02BA1C00AE5F45;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				E6D6D44E2E02C65300293EFB /* XCRemoteSwiftPackageReference "gitdiff" */,
+				E6D6D44E2E02C65300293EFB /* XCLocalSwiftPackageReference "gitdiff" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E67A1E1F2E02BA1C00AE5F45 /* Products */;
@@ -340,16 +340,12 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		E6D6D44E2E02C65300293EFB /* XCRemoteSwiftPackageReference "gitdiff" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/tornikegomareli/gitdiff.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
+/* Begin XCLocalSwiftPackageReference section */
+		E6D6D44E2E02C65300293EFB /* XCLocalSwiftPackageReference "gitdiff" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../;
 		};
-/* End XCRemoteSwiftPackageReference section */
+/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		E67A1E302E02BA2C00AE5F45 /* gitdiff */ = {
@@ -362,7 +358,7 @@
 		};
 		E6D6D44F2E02C65400293EFB /* gitdiff */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E6D6D44E2E02C65300293EFB /* XCRemoteSwiftPackageReference "gitdiff" */;
+			package = E6D6D44E2E02C65300293EFB /* XCLocalSwiftPackageReference "gitdiff" */;
 			productName = gitdiff;
 		};
 /* End XCSwiftPackageProductDependency section */
