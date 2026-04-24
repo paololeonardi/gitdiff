@@ -66,7 +66,6 @@ public struct DiffRenderer: View {
         }
       }
     }
-    .background(Color.appBackground)
     .task(id: diffText) {
       self.parsedFiles = try? await DiffParser.parse(diffText)
     }
