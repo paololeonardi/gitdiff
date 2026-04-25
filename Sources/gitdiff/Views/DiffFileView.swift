@@ -112,5 +112,4 @@ struct DiffFileView: View {
 
   DiffFileView(file: sampleFile)
     .padding()
-    .background(Color.appBackground)
 }
